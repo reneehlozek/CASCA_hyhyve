@@ -1,0 +1,92 @@
+[
+    {
+        "id": "QfxZJHgBTn3sHJkDUkiMl",
+        "position": [
+            262,
+            405
+        ],
+        "content": "[56_AOrdog_CASCA2026.pdf](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.pdf)",
+        "name": "Poster Ordog",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "/static/game/signs/flipchart.png",
+                "size": [
+                    207,
+                    270
+                ],
+                "textArea": {
+                    "position": [
+                        50,
+                        23
+                    ],
+                    "size": [
+                        104,
+                        126
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            200,
+            220
+        ]
+    },
+    {
+        "id": "tYpUE7wq0UGcLwPHDfHv3",
+        "position": [
+            454,
+            405
+        ],
+        "content": "[CASCA_SNair.pdf](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.pdf)",
+        "name": "Poster Nair",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "/static/game/signs/flipchart.png",
+                "size": [
+                    207,
+                    270
+                ],
+                "textArea": {
+                    "position": [
+                        50,
+                        23
+                    ],
+                    "size": [
+                        104,
+                        126
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            200,
+            220
+        ]
+    }
+]
