@@ -1,29 +1,29 @@
 [
     {
-        "id": "QfxZJHgBTn3sHJkDUkiMl",
+        "id": "bpZcFcQnDlbdCWBwHl163",
         "position": [
-            262,
-            405
+            615,
+            480
         ],
-        "content": "[56_AOrdog_CASCA2026.pdf](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.pdf)",
-        "name": "Poster Ordog",
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "56",
         "callType": "Group",
         "sign": {
             "tag": "Sign",
             "asset": {
-                "src": "/static/game/signs/flipchart.png",
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
                 "size": [
-                    207,
-                    270
+                    230,
+                    230
                 ],
                 "textArea": {
                     "position": [
-                        50,
-                        23
+                        0,
+                        0
                     ],
                     "size": [
-                        104,
-                        126
+                        0,
+                        0
                     ]
                 }
             }
@@ -40,35 +40,35 @@
         "customMeetingUrlHost": null,
         "actions": [],
         "size": [
-            200,
-            220
+            270,
+            270
         ]
     },
     {
-        "id": "tYpUE7wq0UGcLwPHDfHv3",
+        "id": "PCAODETBMsHFoxuOOT3Cq",
         "position": [
-            454,
-            405
+            1095,
+            480
         ],
-        "content": "[CASCA_SNair.pdf](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.pdf)",
-        "name": "Poster Nair",
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "90",
         "callType": "Group",
         "sign": {
             "tag": "Sign",
             "asset": {
-                "src": "/static/game/signs/flipchart.png",
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
                 "size": [
-                    207,
-                    270
+                    230,
+                    230
                 ],
                 "textArea": {
                     "position": [
-                        50,
-                        23
+                        0,
+                        0
                     ],
                     "size": [
-                        104,
-                        126
+                        0,
+                        0
                     ]
                 }
             }
@@ -85,8 +85,1673 @@
         "customMeetingUrlHost": null,
         "actions": [],
         "size": [
-            200,
-            220
+            270,
+            270
+        ]
+    },
+    {
+        "id": "IEXsxvdFtwCu5FqALRtP6",
+        "position": [
+            635,
+            1045
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "22",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "gTLC72xJszIerDdbNCSS1",
+        "position": [
+            1305,
+            1110
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "19",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "0ECiiL3jSiNyxpfJBPijP",
+        "position": [
+            595,
+            1585
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "74",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "PQCMUZ8LwdFzGlDPMHGYA",
+        "position": [
+            1195,
+            1645
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "84",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "PIbrjz01qJHy8vk0SfZWM",
+        "position": [
+            4850,
+            350
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "35",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "h1GsNKzpOJ4aZAIUzW1Ch",
+        "position": [
+            5575,
+            700
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "46",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "QoaCpFXicTffDnHFKz9T8",
+        "position": [
+            6340,
+            350
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "81",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "1kHS6ld1y0f5aQxW0AdgV",
+        "position": [
+            4950,
+            1045
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "93",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "50nzcGt6qcroBnKVVgep5",
+        "position": [
+            5385,
+            1120
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "68",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "B1bIxZ1kCFxzPfIjYKpnP",
+        "position": [
+            6080,
+            950
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "21",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "flYc8xxIoWBwAvTCqlF2j",
+        "position": [
+            6545,
+            815
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "10",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "NjiUcBPb0qd8nbMNRR7cN",
+        "position": [
+            5135,
+            1495
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "65",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "PlNkzuyNdjRjr94wOu6Cr",
+        "position": [
+            5620,
+            1550
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "11",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "g8t9af2WNK5lOxQeI03lz",
+        "position": [
+            6555,
+            1315
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "91",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "nKKmpT1B3wDH3LVMTPjI5",
+        "position": [
+            4675,
+            1700
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "38",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "qjC3OkRUF2J556vCUFwok",
+        "position": [
+            6140,
+            1695
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "6",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "kED68UY7juMmGd8XiNa97",
+        "position": [
+            560,
+            3865
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "42",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "WiLXVQTO6oVtB8osR8ohg",
+        "position": [
+            1290,
+            3785
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "58",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "qwsM3xsPQqZtBrsfbH9VK",
+        "position": [
+            1590,
+            3520
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "26",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "LoAkdQDbTcPIfnuBPOa9u",
+        "position": [
+            485,
+            3235
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "2",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "GvKKEhVoIHxRmXfcrLfij",
+        "position": [
+            905,
+            3430
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "89",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "GivbdRXOZsU59arK9kPV6",
+        "position": [
+            790,
+            2900
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "57",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "wZ0KvTfTDePFf1HCn1xlP",
+        "position": [
+            1475,
+            3080
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "92",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "IDRhNL2pUsAoPbHtelqmN",
+        "position": [
+            3955,
+            3960
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "77",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "5GO3jGx72bcPPlhloKcWr",
+        "position": [
+            3500,
+            4125
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "72",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "yMWCFOnv61cSvnYXhh9Oz",
+        "position": [
+            3020,
+            3605
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "87",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "C2Hq5N053PccrThdiUfMM",
+        "position": [
+            3390,
+            3360
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "25",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "D2o3fOY3eekDLyfLuwM1j",
+        "position": [
+            3890,
+            3450
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "32",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "AlfOCQb81m1sRsZzI4OtL",
+        "position": [
+            3810,
+            3025
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "85",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "9Xk5uN0XaDTHoIgMSX5q9",
+        "position": [
+            3250,
+            2935
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "3",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "lKW1jMeBJMXrDtjertnJp",
+        "position": [
+            5395,
+            3950
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "76",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "m7EnmtXaPLDF3aERY6LPd",
+        "position": [
+            5960,
+            4125
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "16",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "hl4cJVO0DnzrUG1gw7x4x",
+        "position": [
+            6175,
+            3015
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "33",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "lMo1QE2JYO6u2oGfIv0es",
+        "position": [
+            5490,
+            3555
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "51",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "6Fm4aO7L6IuczVR003v3V",
+        "position": [
+            6370,
+            3640
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "60",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "1eWdvmMcl7q5KjCmVCxQp",
+        "position": [
+            5900,
+            3340
+        ],
+        "content": "![56_AOrdog_CASCA2026.png](https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png)",
+        "name": "5",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/SRwFGXmJguPzVbt4TlherpD2E4rBub/56_AOrdog_CASCA2026.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
+        ]
+    },
+    {
+        "id": "Iz2DSusKxQPhIT4lCuU9m",
+        "position": [
+            5555,
+            3040
+        ],
+        "content": "![CASCA_SNair.png](https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png)",
+        "name": "64",
+        "callType": "Group",
+        "sign": {
+            "tag": "Sign",
+            "asset": {
+                "src": "https://cdn.hyhyve.com/uploads/LuBGVurY21Deeiv9LlN1K8uJHQBW6J/CASCA_SNair.png",
+                "size": [
+                    230,
+                    230
+                ],
+                "textArea": {
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            270,
+            270
         ]
     }
 ]

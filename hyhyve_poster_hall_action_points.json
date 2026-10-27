@@ -1,0 +1,30 @@
+[
+    {
+        "id": "C49Vqkn1ETkh91WMD3hgg",
+        "position": [
+            2950,
+            1760
+        ],
+        "content": "**CASCA 2026 - Programme**\n\nPaste the programme here (text, a link, or an image like ![programme](https://...png)).\nBoth maps read this file, so the programme board on the session-hall lobby and\nthe one in the poster-hall foyer always show the same information.",
+        "name": "Programme",
+        "callType": "Group",
+        "sign": {
+            "tag": "Default"
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            260,
+            260
+        ]
+    }
+]

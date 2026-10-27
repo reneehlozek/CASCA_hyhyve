@@ -1,17 +1,24 @@
 type,label,x0,y0,x1,y1,centre_x,centre_y
-room,SESSION 1,70,70,630,730,350,400
-room,SESSION 2,680,70,1245,730,962,400
-room,SESSION 3,1295,70,1855,730,1575,400
-room,SESSION 4,1905,70,2470,730,2187,400
-room,SESSION 5,2520,70,3080,730,2800,400
-stage,Main Stage,1025,960,2125,1220,1575,1090
-zone,Stage audience,1245,1340,1905,1585,1575,1462
-table,Table T1,135,1120,345,1270,240,1195
-table,Table T2,135,1460,345,1610,240,1535
-table,Table T3,2805,1120,3015,1270,2910,1195
-table,Table T4,2805,1460,3015,1610,2910,1535
-table,Table T5,520,1830,730,1980,625,1905
-table,Table T6,915,1830,1125,1980,1020,1905
-table,Table T7,2025,1830,2235,1980,2130,1905
-table,Table T8,2420,1830,2630,1980,2525,1905
-room,Main Hall,70,880,3080,2030,1575,1455
+room,Galaxies,100,100,1395,1450,747,775
+room,Transients & Cosmology,1475,100,2770,1450,2122,775
+room,Exoplanets & Stars,2850,100,4150,1450,3500,775
+room,"Galaxies, Gas/dust, Solar System & Stars",4230,100,5525,1450,4877,775
+room,Black holes & Instrumentation,5605,100,6900,1450,6252,775
+board,Programme board,3420,4145,3580,4275,3500,4210
+zone,Lobby,2300,3600,4700,4570,3500,4085
+stage,Main Stage,2410,1835,4590,2435,3500,2135
+zone,Stage audience,2510,2635,4490,3405,3500,3020
+room,Main stage room,2300,1770,4700,3520,3500,2645
+room,Quiet Room,1210,3660,2130,4510,1670,4085
+table,Table Jobs in labs vs. academia,325,1990,965,2365,645,2177
+table,Table Postdocs in Canada vs. USA,1315,1990,2025,2365,1670,2177
+table,Table Canadian ESO collaboration,295,2940,995,3315,645,3127
+table,Table Power/pitfalls of AI,1350,2940,1990,3315,1670,3127
+table,Table Pokémon,325,3900,965,4275,645,4087
+table,Table Science communication,5010,1990,5650,2365,5330,2177
+table,Table CASCA Climate,6035,1990,6675,2365,6355,2177
+table,Table Open table 3,5010,2940,5650,3315,5330,3127
+table,Table Open table 1,6035,2940,6675,3315,6355,3127
+table,Table Open table 2,5010,3900,5650,4275,5330,4087
+link,To Poster Hall,6270,4060,6440,4210,6355,4135
+room,Main Hall,100,1650,6900,4600,3500,3125

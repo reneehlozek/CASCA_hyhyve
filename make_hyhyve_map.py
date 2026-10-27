@@ -9,9 +9,9 @@ Run:  python make_hyhyve_map.py   -> writes hyhyve_poster_space_3150x2100.png
 """
 from PIL import Image, ImageDraw, ImageFont
 
-P = 5                        # size of one art pixel in final-image pixels
-W, H = 3150 // P, 2100 // P  # low-res canvas: 630 x 420
-OUT = "hyhyve_poster_space_3150x2100.png"
+P = 1                        # size of one art pixel in final-image pixels
+W, H = 7000 // P, 4700 // P  # low-res canvas: 630 x 420
+OUT = "hyhyve_poster_space_7000x4700.png"
 
 im = Image.new("RGB", (W, H))
 g = ImageDraw.Draw(im, "RGBA")
