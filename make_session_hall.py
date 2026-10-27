@@ -33,13 +33,14 @@ SESSION_SEATS_PER_ROW = 10          # chairs per row (split by a centre aisle)
 SESSION_CHAIR_SCALE = 2             # chair size in the session rooms (whole number)
 SESSION_STAGE_DEPTH = 64            # raised stage (curtains, screen, podium) across the top of each room
 SESSION_ROOM_HEIGHT = 270           # art px (taller = more room for seats + sign; shorter = bigger main hall)
-SESSION_SIGN_TEXT_SIZE = 11         # long names wrap onto extra lines automatically
+SESSION_SIGN_TEXT_SIZE = 20         # long names wrap onto extra lines automatically
 SESSION_PLANTS = [(0.05, 0.86)]     # bottom-left corner
 SESSION_FLOWER_PLANTS = []
 SESSION_LAMPS = [(0.95, 0.86)]      # bottom-right corner
 
 # --- main stage room (centred at the top of the main hall) ---
 STAGE_TITLE = "MAIN STAGE"
+STAGE_TITLE_SIZE = 22               # font size of the main stage sign
 STAGE_ROOM_WIDTH, STAGE_ROOM_HEIGHT = 480, 350   # art px, including its walls (the stage spans the room)
 STAGE_DEPTH = 120                   # depth of the raised stage inside the room
 AUDIENCE_ROWS = 7                   # rows of chairs in front of the stage
@@ -85,13 +86,14 @@ PROGRAMME_FILE = "programme.md"
 # row by row (left -> right), then the right grid.
 TABLE_LABELS = ["Jobs in labs vs. academia", "Postdocs in Canada vs. USA",
                 "Canadian ESO collaboration", "Power/pitfalls of AI", "Pokémon",
-                "Science communication", "CASCA Climate", "Open table 3", "Open table 1", "Open table 2"]
+                "Science communication", "CASCA EIC", "Open table 3", "Open table 2", "Open table 1"]
 # Optional per-table name-plate colours (default slate blue)
 TABLE_LABEL_COLOURS = {"Pokémon": "#c0392b"}
 TABLE_POSITIONS = None              # None = grid layout; or one (x, y) hall fraction per table
 TABLE_SEATS = 10                    # chairs per table (2 = small round table for two)
 TABLE_SCALE = 2.4                   # table + chair size: 1.0 = small (3.2 is the most that fits 2 columns)
-TABLE_GRID_COLUMNS = 2              # columns of tables on each side of the stage room
+TABLE_GRID_COLUMNS = 2
+TABLE_LABEL_SIZE = 16               # font size of the table name plates              # columns of tables on each side of the stage room
 
 # --- quiet room: a small walled room with soft seating, no talking ---
 # It takes a spot in a table grid (the bottom-right spot of the left grid by
@@ -122,7 +124,8 @@ SHOW_STAIRS = True
 STAIRS_LABEL = "TO POSTER HALL"     # sign above the stairs ("\n" for two lines)
 STAIRS_POSITION = None              # None = the last spot of a table grid (see STAIRS_SIDE); or (x, y) hall fraction
 STAIRS_SIDE = "right"               # with STAIRS_POSITION = None: "right" = bottom-right spot, "left" = bottom-left
-STAIRS_SIZE = (34, 30)              # art px
+STAIRS_SIZE = (60, 54)              # art px
+STAIRS_LABEL_SIZE = 14              # font size of the stairs sign
 
 # Action points for the discussion tables: one per table, the size of the
 # table and its chairs, so walking up to a table puts you in that table's
@@ -151,6 +154,7 @@ HIT_MAP_TRANSPARENT = True          # HyHyve hit map: transparent = walkable, bl
 
 k.set_size(MAP_WIDTH, MAP_HEIGHT)
 k.MAT_SCALE = MAT_SCALE
+k.LABEL_SIZE = TABLE_LABEL_SIZE
 M, ROOM_GAP, CORRIDOR = 20, 16, 40
 
 def layout():
@@ -281,13 +285,13 @@ def session_room(i, name, box):
     stg = (x0 + 12, y0 + k.T + 6, x1 - 12, y0 + k.T + 6 + SESSION_STAGE_DEPTH)
     k.stage(*stg, title=None, podium_offset=(x1 - x0) // 4, accent=accent)
     # sign at the bottom (door) wall: wrap the text until it fits the room
-    name, sz = k.fit_label(name, (x1 - x0) - 12, SESSION_SIGN_TEXT_SIZE)
+    name, sz = k.fit_label(name, (x1 - x0) - 12, SESSION_SIGN_TEXT_SIZE, max(9, SESSION_SIGN_TEXT_SIZE - 4))
     sh, sgw = k.sign_height(name, sz), k.sign_width(name, sz)
     sy = y1 - 6 - sh + sh // 2
     sign_top = sy - sh // 2
     def clear(x, y, half_w=6):   # move decor that would sit under the sign up above it
-        if abs(x - cx) < sgw // 2 + half_w and y > sign_top - 12:
-            y = sign_top - 12
+        if abs(x - cx) < sgw // 2 + half_w * DECOR_SCALE and y > sign_top - 12 * DECOR_SCALE:
+            y = sign_top - 12 * DECOR_SCALE
         return x, y
     for fx, fy in SESSION_LAMPS:
         x, y = clear(*frac(box, fx, fy)); k.floor_lamp(x - 2, y - 10)
@@ -320,7 +324,7 @@ def stage_room(areas):
     for fx, fy in STAGE_ROOM_PLANTS:
         k.furniture("plant", *frac(STAGE_ROOM, fx, fy))
     stage = (x0 + 22, y0 + k.T + 8, x1 - 22, y0 + k.T + 8 + STAGE_DEPTH)
-    k.stage(*stage, title=STAGE_TITLE)
+    k.stage(*stage, title=STAGE_TITLE, title_size=STAGE_TITLE_SIZE)
     areas.append(("stage", STAGE_TITLE.title(), stage))
     top = stage[3] + AUDIENCE_GAP
     bottom = y1 - k.T - 16
@@ -424,9 +428,10 @@ def main():
     if SHOW_STAIRS:
         sx, sy = frac(HALL, *STAIRS_POSITION) if STAIRS_POSITION is not None else stairs_xy
         # keep the stairs and their sign inside the hall walls
-        half = max(STAIRS_SIZE[0], k.sign_width(STAIRS_LABEL, 9)) // 2 + 2
+        half = max(STAIRS_SIZE[0], k.sign_width(STAIRS_LABEL, STAIRS_LABEL_SIZE)) // 2 + 2
         sx = max(hx0 + k.T + half, min(hx1 - k.T - half, sx))
-        box = k.stairs(sx, sy + 10, *STAIRS_SIZE, label=STAIRS_LABEL, label_colour="#2f3640")
+        box = k.stairs(sx, sy + 10, *STAIRS_SIZE, label=STAIRS_LABEL, label_colour="#2f3640",
+                       label_size=STAIRS_LABEL_SIZE)
         areas.append(("link", one_line(STAIRS_LABEL).title(), box))
     areas.append(("room", "Main Hall", HALL))
 

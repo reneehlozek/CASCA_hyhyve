@@ -10,15 +10,15 @@ stage,Main Stage,2410,1835,4590,2435,3500,2135
 zone,Stage audience,2510,2635,4490,3405,3500,3020
 room,Main stage room,2300,1770,4700,3520,3500,2645
 room,Quiet Room,1210,3660,2130,4510,1670,4085
-table,Table Jobs in labs vs. academia,325,1990,965,2365,645,2177
-table,Table Postdocs in Canada vs. USA,1315,1990,2025,2365,1670,2177
-table,Table Canadian ESO collaboration,295,2940,995,3315,645,3127
-table,Table Power/pitfalls of AI,1350,2940,1990,3315,1670,3127
-table,Table Pokémon,325,3900,965,4275,645,4087
-table,Table Science communication,5010,1990,5650,2365,5330,2177
-table,Table CASCA Climate,6035,1990,6675,2365,6355,2177
-table,Table Open table 3,5010,2940,5650,3315,5330,3127
-table,Table Open table 1,6035,2940,6675,3315,6355,3127
-table,Table Open table 2,5010,3900,5650,4275,5330,4087
-link,To Poster Hall,6270,4060,6440,4210,6355,4135
+table,Table Jobs in labs vs. academia,320,1930,970,2425,645,2177
+table,Table Postdocs in Canada vs. USA,1255,1930,2085,2425,1670,2177
+table,Table Canadian ESO collaboration,325,2880,965,3375,645,3127
+table,Table Power/pitfalls of AI,1290,2930,2050,3330,1670,3130
+table,Table Pokémon,325,3885,965,4285,645,4085
+table,Table Science communication,5005,1930,5655,2425,5330,2177
+table,Table CASCA EIC,6035,1975,6675,2375,6355,2175
+table,Table Open table 3,5010,2930,5650,3330,5330,3130
+table,Table Open table 2,6035,2930,6675,3330,6355,3130
+table,Table Open table 1,5010,3885,5650,4285,5330,4085
+link,To Poster Hall,6205,4000,6505,4270,6355,4135
 room,Main Hall,100,1650,6900,4600,3500,3125

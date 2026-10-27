@@ -485,7 +485,7 @@ def speaker(x, y):
     g.ellipse([x + 2, y + 2, x + 5, y + 5], fill="#555d6b")
     g.ellipse([x + 1, y + 6, x + 6, y + 10], fill="#555d6b")
 
-def stage(x0, y0, x1, y1, title="MAIN STAGE", podium_offset=50, accent="#5a8fe0"):
+def stage(x0, y0, x1, y1, title="MAIN STAGE", podium_offset=50, accent="#5a8fe0", title_size=10):
     """Raised wooden stage: curtains, big screen, podium, speakers, front steps."""
     front = 5
     shadow(x0, y0, x1, y1)
@@ -509,7 +509,7 @@ def stage(x0, y0, x1, y1, title="MAIN STAGE", podium_offset=50, accent="#5a8fe0"
     R(mid - 12, y1, mid + 12, y1 + 3, "#9a6238", OL)            # steps
     if not title:
         return
-    title, tsz = fit_label(title, (x1 - x0) - 20, 10)
+    title, tsz = fit_label(title, (x1 - x0) - 20, title_size, max(9, title_size - 2))
     th = sign_height(title, tsz)
     sign(mid, y1 + 4 + th // 2, title, "#5a3b22", tsz)
 
@@ -572,8 +572,9 @@ def stairs(cx, cy, w=34, h=30, label=None, label_colour="#2f3640", label_size=9,
     g.rectangle([x0, y0, x1, y1], outline=OL)
     if arrow:                                             # downward arrow on the steps
         ax, ay = cx, cy
-        R(ax - 1, ay - 7, ax + 1, ay + 2, "#fbfbf6")
-        g.polygon([(ax - 5, ay + 2), (ax + 5, ay + 2), (ax, ay + 7)], fill="#fbfbf6")
+        f = max(1, min(w // 34, h // 30))                    # arrow grows with the stairs
+        R(ax - f, ay - 7 * f, ax + f, ay + 2 * f, "#fbfbf6")
+        g.polygon([(ax - 5 * f, ay + 2 * f), (ax + 5 * f, ay + 2 * f), (ax, ay + 7 * f)], fill="#fbfbf6")
     if label:
         lh = sign_height(label, label_size)
         ly = y1 + 4 + lh // 2 if label_below else y0 - 4 - lh + lh // 2
@@ -616,6 +617,8 @@ def _group_dims(seats, scale):
     cw, ch = q(6), q(5)                               # chair size
     return per_side, ends, gap, tw, th, cw, ch
 
+LABEL_SIZE = 9          # font size of table name plates (set by the map scripts)
+
 def group_table(cx, cy, seats=10, label=None, scale=1.0, label_max_w=None, label_colour="#46606b"):
     """Long wooden table with `seats` chairs around it (split along both sides,
     one at each end for 6+). Label on a name plate below, wrapped to label_max_w."""
@@ -647,9 +650,10 @@ def group_table(cx, cy, seats=10, label=None, scale=1.0, label_max_w=None, label
         mx = x0 + 4 + j * (tw - 8) // max(1, seats // 4)
         R(mx, cy - 2, mx + 2, cy, "#e8e8e8", OL)
     if label:
-        lab = wrap_label(label, 9, label_max_w) if label_max_w else str(label)
-        lh = sign_height(lab, 9)
-        sign(cx, y1 + ch + 4 + lh // 2, lab, label_colour, 9)
+        ls = LABEL_SIZE
+        lab = wrap_label(label, ls, label_max_w) if label_max_w else str(label)
+        lh = sign_height(lab, ls)
+        sign(cx, y1 + ch + 4 + lh // 2, lab, label_colour, ls)
 
 def group_table_extent(seats=10, label=None, scale=1.0, label_max_w=None):
     """(half_width, height_above, height_below) a group_table occupies, incl. its label."""
@@ -660,9 +664,10 @@ def group_table_extent(seats=10, label=None, scale=1.0, label_max_w=None):
     above = th // 2 + ch + 1
     below = th // 2 + ch + 3
     if label:
-        lab = wrap_label(label, 9, label_max_w) if label_max_w else str(label)
-        half = max(half, sign_width(lab, 9) // 2)
-        below = th // 2 + ch + 4 + sign_height(lab, 9)
+        ls = LABEL_SIZE
+        lab = wrap_label(label, ls, label_max_w) if label_max_w else str(label)
+        half = max(half, sign_width(lab, ls) // 2)
+        below = th // 2 + ch + 4 + sign_height(lab, ls)
     return half, above, below
 
 # ------------------------------------------------------------------ HyHyve action points

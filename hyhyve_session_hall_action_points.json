@@ -1,9 +1,9 @@
 [
     {
-        "id": "WAQwHBHYT2CfjkkNDfe3c",
+        "id": "n0WxyRwkZNSoxm2KiqEiQ",
         "position": [
             645,
-            2135
+            2075
         ],
         "content": "**Jobs in labs vs. academia**\n\nPull up a chair and join the discussion!",
         "name": "Jobs in labs vs. academia",
@@ -28,10 +28,10 @@
         ]
     },
     {
-        "id": "4g1lLlVW80kgmpZqLTdkI",
+        "id": "U7vv2F3JACd5xtKCm4qY5",
         "position": [
             1670,
-            2135
+            2075
         ],
         "content": "**Postdocs in Canada vs. USA**\n\nPull up a chair and join the discussion!",
         "name": "Postdocs in Canada vs. USA",
@@ -56,10 +56,10 @@
         ]
     },
     {
-        "id": "lRDwWbZg66Cpy8cwu3UOr",
+        "id": "d23AZBxRtdvftQ83h9DPD",
         "position": [
             645,
-            3085
+            3025
         ],
         "content": "**Canadian ESO collaboration**\n\nPull up a chair and join the discussion!",
         "name": "Canadian ESO collaboration",
@@ -84,10 +84,10 @@
         ]
     },
     {
-        "id": "MUqusvVlw7iPXekLHqkTa",
+        "id": "3JkavUlBjwcy4bo8oGrpp",
         "position": [
             1670,
-            3085
+            3075
         ],
         "content": "**Power/pitfalls of AI**\n\nPull up a chair and join the discussion!",
         "name": "Power/pitfalls of AI",
@@ -112,10 +112,10 @@
         ]
     },
     {
-        "id": "nbEqwJgNudFbJVECYCCyj",
+        "id": "iFQiuBl3dIHCUumcfNc34",
         "position": [
             645,
-            4045
+            4030
         ],
         "content": "**Pokémon** - gotta chat 'em all!\n\n(theme song link goes here)",
         "name": "Pokémon",
@@ -140,10 +140,10 @@
         ]
     },
     {
-        "id": "GE1QzBIhrDEMlJ60lOzUH",
+        "id": "wWHPT1jav7nlrMjNtXdT8",
         "position": [
             5330,
-            2135
+            2075
         ],
         "content": "**Science communication**\n\nPull up a chair and join the discussion!",
         "name": "Science communication",
@@ -168,13 +168,13 @@
         ]
     },
     {
-        "id": "2qMVSbhLAtyvJDaJ6U9yc",
+        "id": "FrUJQDD9M8RvTclRynMKN",
         "position": [
             6355,
-            2135
+            2120
         ],
-        "content": "**CASCA Climate**\n\nPull up a chair and join the discussion!",
-        "name": "CASCA Climate",
+        "content": "**CASCA EIC**\n\nPull up a chair and join the discussion!",
+        "name": "CASCA EIC",
         "callType": "Group",
         "sign": {
             "tag": "Default"
@@ -196,10 +196,10 @@
         ]
     },
     {
-        "id": "PQqIEpUGRBqbHS5o8hYqj",
+        "id": "Lli2zRYGootEShRSDxujR",
         "position": [
             5330,
-            3085
+            3075
         ],
         "content": "**Open table 3**\n\nPull up a chair and join the discussion!",
         "name": "Open table 3",
@@ -224,38 +224,10 @@
         ]
     },
     {
-        "id": "nDBhLGZ4cwHlLrgpXKd8x",
+        "id": "Ta98ozJDilpRMdjewAK1U",
         "position": [
             6355,
-            3085
-        ],
-        "content": "**Open table 1**\n\nPull up a chair and join the discussion!",
-        "name": "Open table 1",
-        "callType": "Group",
-        "sign": {
-            "tag": "Default"
-        },
-        "openFullscreen": false,
-        "startCallMinimized": false,
-        "overrideDisableAutoJoinStaticMeetingAreas": null,
-        "msTeamsAutoStartRecording": null,
-        "wherebyAutoStartRecording": null,
-        "wherebyLiveTranscription": null,
-        "wherebyTranscriptionLanguage": null,
-        "wherebyAutoStartTranscription": null,
-        "customMeetingUrl": null,
-        "customMeetingUrlHost": null,
-        "actions": [],
-        "size": [
-            660,
-            310
-        ]
-    },
-    {
-        "id": "O9XHWgziHxhpFevmk31Uz",
-        "position": [
-            5330,
-            4045
+            3075
         ],
         "content": "**Open table 2**\n\nPull up a chair and join the discussion!",
         "name": "Open table 2",
@@ -280,7 +252,35 @@
         ]
     },
     {
-        "id": "nE9ck84GLsRaIdDGMphXM",
+        "id": "ZEaoyBWLGENrjuXURpQ5S",
+        "position": [
+            5330,
+            4030
+        ],
+        "content": "**Open table 1**\n\nPull up a chair and join the discussion!",
+        "name": "Open table 1",
+        "callType": "Group",
+        "sign": {
+            "tag": "Default"
+        },
+        "openFullscreen": false,
+        "startCallMinimized": false,
+        "overrideDisableAutoJoinStaticMeetingAreas": null,
+        "msTeamsAutoStartRecording": null,
+        "wherebyAutoStartRecording": null,
+        "wherebyLiveTranscription": null,
+        "wherebyTranscriptionLanguage": null,
+        "wherebyAutoStartTranscription": null,
+        "customMeetingUrl": null,
+        "customMeetingUrlHost": null,
+        "actions": [],
+        "size": [
+            660,
+            310
+        ]
+    },
+    {
+        "id": "40HlBPwuAGlF2V63Q81o4",
         "position": [
             3500,
             4210
