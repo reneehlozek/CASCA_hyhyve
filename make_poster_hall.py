@@ -37,7 +37,7 @@ ROOM_COLUMNS = 3                    # rooms per row (the foyer takes one cell)
 SHOW_FOYER = True                   # foyer (networking area) takes the middle cell of a row
 FOYER_ROW = "top"                   # "top" = in the first row of rooms, "bottom" = in the last row
 SIGN_TEXT_SIZE = 20                 # room-sign font size (art pixels)
-DOOR_WIDTH = 60                     # art pixels
+DOOR_WIDTH = 130                    # doorway of each poster room (art pixels; 100 = 500 px)
 
 # Room size follows the posters: each room gets a grid of poster spots spaced
 # POSTER_SPACING apart, plus margins; rooms with more posters are bigger.

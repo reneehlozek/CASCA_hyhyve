@@ -1,40 +1,36 @@
 board,name,title,content
-1.1,56,Probing the Physical State of Warm Gas in NGC 4696: Infrared Diagnostics for the JWST Era,
-1.2,90,SMA observations of the archetypal CSS radio source 3C 303.1,
-1.3,22,Initial Investigations of the Outskirts of XLSSC 122,
-1.4,19,"Bulge-driven quenching in KILOGAS: separating classical bulges, pseudobulges and disks with SPADE",
-1.5,74,Bayesian and Brisk: Scalable AGN Lightcurve Simulation and Fitting for Supernova Cosmology and Population Studies,
-1.6,84,Mapping the Faint Frontier: Improved Local Group Kinematics with JWST + Gaia + HST Astrometry,
-2.1,35,Modelling the Energy and Redshift distribution of FRBs using the Second CHIME/FRB catalog,
-2.2,46,Characterizing Fast Radio Burst morphologies in CHIME’s Baseband Catalog 2,
-2.3,81,Sub-band Extensions to Measure Scattering with the Arrival-Times Pipeline for Repeating Fast Radio Bursts,
-2.4,93,SN2024uwq and the Evolutionary History of Type IIb Supernovae,
-2.5,68,The Polarization and Magnetic Field of the Radio Arc as Observed by ALMA at 100 GHz,
-2.6,21,Inferring supernova light curves in Rubin data,
+1.1,56,Probing the Physical State of Warm Gas in NGC 4696: Infrared Diagnostics for the JWST Era,56_Pereira_Olivia_Poster Olivia Pereira.png
+1.2,90,SMA observations of the archetypal CSS radio source 3C 303.1,90_Bhutkar_Rushikesh_Poster Rushikesh Bhutkar.png
+1.3,22,Initial Investigations of the Outskirts of XLSSC 122,22_Todd_Poster Eleanore.png
+1.4,19,"Bulge-driven quenching in KILOGAS: separating classical bulges, pseudobulges and disks with SPADE",19_CASCA_ERS_2026_poster_George Angelo George (1).pdf
+1.5,74,Bayesian and Brisk: Scalable AGN Lightcurve Simulation and Fitting for Supernova Cosmology and Population Studies,74_Augspach_Zoe_Poster Zoe Augspach.jpg
+1.6,84,Mapping the Faint Frontier: Improved Local Group Kinematics with JWST + Gaia + HST Astrometry,84_Chen_Liwen_Poster Liwen Chen.png
+2.1,35,Modelling the Energy and Redshift distribution of FRBs using the Second CHIME/FRB catalog,35_Jain_Naman_Poster Naman Jain.png
+2.2,46,Characterizing Fast Radio Burst morphologies in CHIME’s Baseband Catalog 2,46_Legué_Chloé_Poster Chloé Legué.png
+2.3,81,Sub-band Extensions to Measure Scattering with the Arrival-Times Pipeline for Repeating Fast Radio Bursts,81_Pop_Victor_Poster Victor Pop.png
+2.4,93,SN2024uwq and the Evolutionary History of Type IIb Supernovae,93_Teixeira_Annalisa_Poster.png Annalisa Teixeira.png
+2.5,68,The Polarization and Magnetic Field of the Radio Arc as Observed by ALMA at 100 GHz,68_Salem_Nora_Poster Nora Salem.png
+2.6,21,Inferring supernova light curves in Rubin data,21_Stone_Connor_LightCurves_Poster Connor Stone.png
 2.7,10,BEAMS with Bias Correction: Is It Well-Calibrated?,10_Linh_Vo_Poster Linh Vo.png
 2.8,65,The impact of nearby soil conditions on the MIST global 21-cm experiment,65_McGee_Francis_Poster Francis McGee.jpg
-2.9,11,The Long and Winding Equation: Symbolic Regression for Power Spectra from the Cosmic Dawn and Epoch of Reionization,
-2.10,91,Developing a Machine Learning Algorithm for Dark Matter Detection in the SuperCDMS Experiment,
-2.11,38,Constraining Modified Gravity with the Marked Power Spectrum,
-2.12,6,Lattice simulations of alpha-attractor inflation: numerical sensitivity and model comparisons,
-3.1,42,Forecasting The Weather On Ultra-Hot Worlds: A High-Resolution Study of WASP-189b,
-3.2,58,Rapid Rotation of a Cold Extremely Metal-poor Brown Dwarf,
-3.3,26,Searching for Precursor Outbursts in 2024jlf,
-3.4,2,First Mid-Infrared Characterization of the Galactic Center WR Star Population,
-3.5,89,Tracing Star Formation Histories in the Local Neighborhood using Young Stellar Associations,
-3.6,57,Reshaping the Search for Substructures in Young Protostellar Disks,
-3.7,92,Finding Young Stars in the Noise: A Multi-Wavelength Detection and Classification Algorithm for Young Stellar Objects,
-4.1,77,Fifteen Years of Archival ALMA Data as a Survey: A Search for Accretion Streamers in Serpens Main,
-4.2,72,From Starless Cores to Embedded Disks: Chemistry and Fragmentation in Early Star Formation,
-4.3,87,Quantifying the Effect of a Bottom-Light IMF on Globular Cluster Evolution Using the Cluster Monte Carlo Code,
-4.4,25,Extragalactic Probes for a Galactic Model: Validating the NE2025 Galactic Electron Density Model using CHIME Fast Radio Bursts Scattering Measurements,
-4.5,32,The Impact of Inspiral Timing and Model Assumptions on Convective Common Envelopes,
-4.6,85,Unveiling the Origins of a Historic Supernova,
-4.7,3,From Starlight to Synapses: How Cosmological Bayesian Inference Reveals the Brain's Molecular Structure,
-5.1,76,Closing the AGN Feedback Loop Through Sub-kiloparsec Scale Gas Kinematics With JWST,
-5.2,16,The Final Mass and Early Growth of the Intermediate-Mass Black Hole in Omega Centauri,
-5.3,33,"Catching Emission ""Life-Lines"" in Black Hole X-ray Binaries to Understand Relativistic Jets",
-5.4,51,Dynamical Simulations of Self-Consistent Mass Accretion onto Black Holes in Ultralight Dark Matter,
-5.5,60,Neural Network Classification of BL Lacs and FSRQs among X-ray/Gamma-ray Blazars discovered in the Fermi 4FGL-DR4 Unassociated Catalog,
-5.6,5,Making Reconnection Cooler: Modelling bright emission around black holes,
-5.7,64,Modelling Variable Broad Absorption Line Quasar Outflows Using SimBAL,
+2.9,11,The Long and Winding Equation: Symbolic Regression for Power Spectra from the Cosmic Dawn and Epoch of Reionization,11_Bayder_Maria_Poster Maria Bayder.png
+2.10,38,Constraining Modified Gravity with the Marked Power Spectrum,38_Hussien_Amani_Poster Amani H.png
+2.11,6,Lattice simulations of alpha-attractor inflation: numerical sensitivity and model comparisons,6_Beavis_Nick_Poster Nick Beavis.png
+3.1,42,Forecasting The Weather On Ultra-Hot Worlds: A High-Resolution Study of WASP-189b,42_Gabriel_Jason_Poster Jason Gabriel.png
+3.2,58,Rapid Rotation of a Cold Extremely Metal-poor Brown Dwarf,58_Zhang_Junyan_Poster Junyan Zhang.png
+3.3,26,Searching for Precursor Outbursts in 2024jlf,26_SURP Final Poster(1) Ai Hua (Alexis) Li.png
+3.4,89,Tracing Star Formation Histories in the Local Neighborhood using Young Stellar Associations,89_Jassal_Sargun_Poster Sargun Jassal.png
+3.5,57,Reshaping the Search for Substructures in Young Protostellar Disks,57_Sullivan_Callista_Poster Callista Sullivan.png
+3.6,92,Finding Young Stars in the Noise: A Multi-Wavelength Detection and Classification Algorithm for Young Stellar Objects,92_Sacco_Luke_Poster Luke Sacco.png
+4.1,77,Fifteen Years of Archival ALMA Data as a Survey: A Search for Accretion Streamers in Serpens Main,77_Fielder_Samuel_Poster Samuel Fielder.png
+4.2,72,From Starless Cores to Embedded Disks: Chemistry and Fragmentation in Early Star Formation,72_Sharma_Rajeeb_Poster Rajeeb Sharma (1).png
+4.3,32,The Impact of Inspiral Timing and Model Assumptions on Convective Common Envelopes,32_Chaudhuri_Aishani_Poster Aishani Chaudhuri.png
+4.4,85,Unveiling the Origins of a Historic Supernova,85_Petryk_Amilia_Poster Amilia Petryk.png
+4.5,3,From Starlight to Synapses: How Cosmological Bayesian Inference Reveals the Brain's Molecular Structure,3_Sidhu_Manveer_Poster Manveer Sidhu.png
+5.1,76,Closing the AGN Feedback Loop Through Sub-kiloparsec Scale Gas Kinematics With JWST,76_Marquis_Mathieu_Poster Mathieu Marquis.jpg
+5.2,16,The Final Mass and Early Growth of the Intermediate-Mass Black Hole in Omega Centauri,16_Hayduk_Mackenzie_Poster Mackenzie Hayduk.JPG
+5.3,33,"Catching Emission ""Life-Lines"" in Black Hole X-ray Binaries to Understand Relativistic Jets",33_Patel_Aadi_Poster Aadi Patel.png
+5.4,51,Dynamical Simulations of Self-Consistent Mass Accretion onto Black Holes in Ultralight Dark Matter,51_Wang_YourongFrank_Poster Yourong Frank Wang.png
+5.5,60,Neural Network Classification of BL Lacs and FSRQs among X-ray/Gamma-ray Blazars discovered in the Fermi 4FGL-DR4 Unassociated Catalog,60_Deppe_Sierra_Poster Sierra Deppe (1).png
+5.6,52,PTED: A multi-dimensional two-sample test for scientific inference and generative machine learning,52_Stone_Connor_PTED_Poster Connor Stone.png
+5.7,64,Modelling Variable Broad Absorption Line Quasar Outflows Using SimBAL,64_Frisella_Nicolas_Poster Nicolas Frisella.png

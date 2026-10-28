@@ -32,6 +32,7 @@ SESSION_ROWS = 6                    # rows of chairs in each session room
 SESSION_SEATS_PER_ROW = 10          # chairs per row (split by a centre aisle)
 SESSION_CHAIR_SCALE = 2             # chair size in the session rooms (whole number)
 SESSION_STAGE_DEPTH = 64            # raised stage (curtains, screen, podium) across the top of each room
+SESSION_DOOR_WIDTH = 72             # doorway of each session room (and the matching gap in the hall wall)
 SESSION_ROOM_HEIGHT = 270           # art px (taller = more room for seats + sign; shorter = bigger main hall)
 SESSION_SIGN_TEXT_SIZE = 20         # long names wrap onto extra lines automatically
 SESSION_PLANTS = [(0.05, 0.86)]     # bottom-left corner
@@ -49,6 +50,9 @@ AUDIENCE_CHAIR_SCALE = 2            # chair size (whole number)
 AUDIENCE_GAP = 40                   # space between the stage front and the first row
 STAGE_ROOM_CARPET = ("#9e4a5a", "#a8566a", "#843b4b")   # stripe 1, stripe 2, edge
 STAGE_ROOM_SIDE_DOORS = True        # doors in the left/right walls as well as the front
+STAGE_ROOM_DOOR_WIDTH = 150         # front doorway (towards the lobby)
+STAGE_ROOM_SIDE_DOOR_WIDTH = 90     # side doorways
+HALL_ENTRANCE_WIDTH = 120           # main entrance in the bottom wall of the hall
 STAGE_ROOM_PLANTS = [(0.05, 0.93), (0.95, 0.93)]
 STAGE_ROOM_LAMPS = [(0.04, 0.62), (0.96, 0.62)]
 
@@ -86,7 +90,7 @@ PROGRAMME_FILE = "programme.md"
 # row by row (left -> right), then the right grid.
 TABLE_LABELS = ["Jobs in labs vs. academia", "Postdocs in Canada vs. USA",
                 "Canadian ESO collaboration", "Power/pitfalls of AI", "Pokémon",
-                "Science communication", "CASCA EIC", "Open table 3", "Open table 2", "Open table 1"]
+                "Science communication", "CASCA Climate", "Open table 3", "Open table 2", "Open table 1"]
 # Optional per-table name-plate colours (default slate blue)
 TABLE_LABEL_COLOURS = {"Pokémon": "#c0392b"}
 TABLE_POSITIONS = None              # None = grid layout; or one (x, y) hall fraction per table
@@ -104,6 +108,7 @@ QUIET_ROOM_NOTE = "shhh..."         # small sign under the title ("" for none)
 QUIET_ROOM_SIDE = "left"            # which table grid it sits in: "left" or "right"
 QUIET_ROOM_CARPET = ("#cfe3d0", "#d9ebd9", "#a9c9ab")
 QUIET_ROOM_DOOR = "right"           # wall with the door: "top", "bottom", "left" or "right"
+QUIET_ROOM_DOOR_WIDTH = 56
 QUIET_ROOM_FURNITURE = [            # (kind, x, y) fractions of the quiet room
     ("armchair", 0.25, 0.38), ("armchair", 0.62, 0.38), ("armchair", 0.25, 0.56),
     ("bookshelf", 0.2, 0.9), ("plant", 0.72, 0.84),
@@ -266,7 +271,7 @@ def quiet_room(cell, cell_size, areas):
     x0, y0, x1, y1 = box
     k.striped_rug(x0, y0, x1, y1, *QUIET_ROOM_CARPET)
     along = {"top": cx, "bottom": cx, "left": cy, "right": cy}[QUIET_ROOM_DOOR]
-    k.room_walls(x0, y0, x1, y1, [(QUIET_ROOM_DOOR, along, 36)])
+    k.room_walls(x0, y0, x1, y1, [(QUIET_ROOM_DOOR, along, QUIET_ROOM_DOOR_WIDTH)])
     for kind, fx, fy in QUIET_ROOM_FURNITURE:
         k.furniture(kind, *frac(box, fx, fy))
     title_h = k.sign_height(QUIET_ROOM_LABEL, 10)
@@ -280,7 +285,7 @@ def session_room(i, name, box):
     c1, c2, edge, accent = k.ROOM_COLOURS[(i - 1) % len(k.ROOM_COLOURS)]
     cx = (x0 + x1) // 2
     k.striped_rug(x0, y0, x1, y1, c1, c2, edge)
-    k.room_walls(x0, y0, x1, y1, [("bottom", cx, 36)])
+    k.room_walls(x0, y0, x1, y1, [("bottom", cx, SESSION_DOOR_WIDTH)])
     k.DECOR_SCALE = DECOR_SCALE
     stg = (x0 + 12, y0 + k.T + 6, x1 - 12, y0 + k.T + 6 + SESSION_STAGE_DEPTH)
     k.stage(*stg, title=None, podium_offset=(x1 - x0) // 4, accent=accent)
@@ -314,10 +319,10 @@ def stage_room(areas):
     x0, y0, x1, y1 = STAGE_ROOM
     cx = (x0 + x1) // 2
     k.striped_rug(x0, y0, x1, y1, *STAGE_ROOM_CARPET)
-    doors = [("bottom", cx, 70)]
+    doors = [("bottom", cx, STAGE_ROOM_DOOR_WIDTH)]
     if STAGE_ROOM_SIDE_DOORS:
         dy = round(y0 + (y1 - y0) * 0.8)
-        doors += [("left", dy, 40), ("right", dy, 40)]
+        doors += [("left", dy, STAGE_ROOM_SIDE_DOOR_WIDTH), ("right", dy, STAGE_ROOM_SIDE_DOOR_WIDTH)]
     k.room_walls(x0, y0, x1, y1, doors)
     for fx, fy in STAGE_ROOM_LAMPS:
         k.furniture("floor_lamp", *frac(STAGE_ROOM, fx, fy))
@@ -373,8 +378,8 @@ def main():
     hx0, hy0, hx1, hy1 = HALL
     hcx = (hx0 + hx1) // 2
     k.striped_rug(hx0, hy0, hx1, hy1, *k.LOUNGE_RUG)
-    doors = [("top", (b[0] + b[2]) // 2, 40) for _, b in ROOMS.values()]
-    k.room_walls(hx0, hy0, hx1, hy1, doors + [("bottom", hcx, 80)])
+    doors = [("top", (b[0] + b[2]) // 2, SESSION_DOOR_WIDTH + 8) for _, b in ROOMS.values()]
+    k.room_walls(hx0, hy0, hx1, hy1, doors + [("bottom", hcx, HALL_ENTRANCE_WIDTH)])
 
     k.DECOR_SCALE = HALL_DECOR_SCALE
     # extra hall decoration first, so furniture draws on top
